@@ -1,0 +1,102 @@
+.main__box{
+    position: relative;
+    background: #000000CF;
+    height: 100vh;
+    width: 100vw;
+    color:#9F9F9F;
+}
+.create__quiz{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    width: 845px;
+    height: 671px;
+    top: 140px;
+    left: 500px;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+.box__3{
+    margin-top: 20px;
+    display: flex;
+    gap: 80px;
+}
+
+.btn-ca , .btn-co{
+    width: 270px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 25px 0px #00000026;
+    color: #474444;
+}
+
+.btn-co:hover {
+    background-color : #60B84B;
+    color: white;
+    box-shadow: 0px 0px 25px 0px #00000026;
+}
+.btn-ca:hover{
+    background-color : #60B84B;
+    color: white;
+    box-shadow: 0px 0px 25px 0px #00000026;
+}
+
+.upper__body{
+    display: flex;
+    gap: 350px;
+    align-items: center;
+}
+
+.btn-ques {
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    margin-right: 15px;
+    border: 1px solid white;
+}
+
+.ques__poll{
+    width: 673px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 25px 0px #00000026;
+}
+
+.mid__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 130px;
+    font-size: 20px;
+}
+
+.option1__mid , .option2__mid , .option3__mid {
+    margin-right: 30px;
+}
+
+.option1text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    
+}
+
+.option1__text{
+    width: 296px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 0px #00000026;
+    border: 1px solid white;
+
+}
+
+.option1textImage{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

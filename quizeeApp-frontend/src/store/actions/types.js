@@ -1,0 +1,9 @@
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const SIGNUP_SUCCESS = "SIGNUP_SUCCESS";
+export const SIGNUP_FAIL = "SIGNUP_FAIL";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+export const ADD_BUTTON = "ADD_BUTTON";
+export const REMOVE_BUTTON = "REMOVE_BUTTON";
+export const LOGOUT_SUCCESS = "LOGOUT_SUCCESS";
+export const QUIZ_SUCCESS = "QUIZ_SUCCESS";
+export const QUIZ_FALIURE = "QUIZ_FALIURE";

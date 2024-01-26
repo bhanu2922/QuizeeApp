@@ -1,0 +1,45 @@
+.compeleteQuizScreen{
+    position: relative;
+    background: #000000CF;
+    height: 100vh;
+    width: 100vw;
+    color:#9F9F9F;
+}
+.quiz__modal{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 845px;
+    height: 481px;
+    gap: 20px;
+    top: 140px;
+    left: 500px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    text-align: center;
+}
+.text-quiz{
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+input[type = "text"]{
+    margin-top: 50px;
+    width: 675px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+.finalButton{
+    width: 279px;
+    height: 46.14px;
+    border-radius: 10px;
+    background: #60B84B;
+    color: white;
+    border: 1px solid white;
+}
